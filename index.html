@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/bootstrap/reset.css"/>
+    <link rel="stylesheet" href="/assets/css/site.css"/>
+    <link rel="stylesheet" href="/assets/css/bootstrap/searcher.css"/>
+    <link rel="stylesheet" href="/assets/css/bootstrap/grid.css"/>
+    <link rel="stylesheet" href="/assets/css/bootstrap/modal.css"/>
+    <script src="/assets/js/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav>
+            <ul>
+                <li>
+                    <a class= "active" href="/index.html">NPSG Videos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wrapper">
+        <form name="searcher">
+            <div class="searcher">
+                <input type="text" id="searcher" name="searcher" data-filter="searcher" maxlength="50" placeholder="Qué desea buscar?" />
+            </div>
+        </form>
+        <div class="row space" id="videos"></div>
+    </main>
+    <div class="modal" id="modal">
+        <div class="content">
+            <button id="return">Regresar</button>
+            <div id="video"></div>
+            <h4 id="title"></h4>
+            <div class="row">
+                <div class="col col-3" id="views"></div>
+                <div class="col col-3" id="likes"></div>
+                <div class="col col-3" id="dislikes"></div>
+            </div>
+            <p id="description"></p>
+            
+        </div>
+    </div>   
+</body>
+</html>

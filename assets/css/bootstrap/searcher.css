@@ -1,0 +1,21 @@
+/*Estilo del buscador*/
+.searcher input[type=text]{
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    font-size: 1.3rem;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    border: solid 0px #cccccc;
+    border-bottom-width: 2px;
+    background: #c9b4b433;
+    color: inherit;
+    outline: 0;
+    margin-bottom: 5px;
+}
+
+/*Estilo del buscador cuando se le pasa el ratón por encima*/
+.searcher input[type="text"]:focus, .searcher input[type="text"]:hover{
+    border-color: #a7a7a7;
+}
+

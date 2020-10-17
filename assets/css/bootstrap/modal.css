@@ -1,0 +1,68 @@
+/*Estilos del modal*/
+.locked{
+    overflow: hidden;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    overflow-y: auto;
+    display: none;
+}
+
+.modal.open{
+    display: block;
+}
+
+/*Estilos del content*/
+.content{
+    background-color: #fff;
+    border: 1px solid #c0c0c0 ;
+    width: 480px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #00000080;
+    border-radius: 3px;
+}
+
+.content .row{
+    background-color: #c4cbeb;
+}
+
+h4{
+    margin: 10px;
+    font-size: large;
+}
+
+p{
+    font-size: small;
+    margin-top: 10px;
+}
+
+/*Estilos del botón*/
+#return{
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 8px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #6b6b6b;
+    color: inherit;
+    background-color: #06332d;
+    border-color: #04493b;
+    color: #fff;
+    position: relative;
+    margin-left: 80%;
+    margin-bottom: 10px;
+}
+
+#return:hover{
+    background-color: #0c6150;
+}
+
